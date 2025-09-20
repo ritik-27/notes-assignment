@@ -25,7 +25,13 @@ iNotebook is a secure and intuitive cloud-based application designed to help you
 
 ### 📦 Backend Setup (Flask)
 
-1. Create and activate a virtual environment:
+1. Move into the backend folder:
+
+    ```bash
+    cd backend
+    ```
+
+2. Create and activate a virtual environment:
 
    ```bash
    python -m venv venv
@@ -33,13 +39,13 @@ iNotebook is a secure and intuitive cloud-based application designed to help you
    venv\Scripts\activate       # On Windows
    ```
 
-2. Install dependencies:
+3. Install dependencies:
 
     ```bash
       pip install -r requirements.txt
     ```
     
-2. Create a .env file inside the backend/ folder and add your environment variables::
+4. Create a .env file inside the backend/ folder and add your environment variables::
 
     ```bash
       DB_URI=
@@ -47,7 +53,7 @@ iNotebook is a secure and intuitive cloud-based application designed to help you
       JWT_SECRET=
     ```
 
-3. Start the Flask backend:
+5. Start the Flask backend:
 
     ```bash
     flask run --port=5000
