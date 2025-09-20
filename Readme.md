@@ -35,15 +35,23 @@ iNotebook is a secure and intuitive cloud-based application designed to help you
 
 2. Install dependencies:
 
-```bash
-  pip install -r requirements.txt
-```
+    ```bash
+      pip install -r requirements.txt
+    ```
+    
+2. Create a .env file inside the backend/ folder and add your environment variables::
+
+    ```bash
+      DB_URI=
+      MONGO_DB=
+      JWT_SECRET=
+    ```
 
 3. Start the Flask backend:
 
-```bash
-flask run --port=5000
-```
+    ```bash
+    flask run --port=5000
+    ```
 
 The backend will be available at [http://localhost:5000](http://localhost:5000).
 
@@ -53,21 +61,21 @@ The backend will be available at [http://localhost:5000](http://localhost:5000).
 
 1. Move into the frontend folder:
 
-```bash
-cd frontend
-```
+    ```bash
+    cd frontend
+    ```
 
 2. Install dependencies:
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 3. Start the React app:
 
-```bash
-npm start
-```
+    ```bash
+    npm run start
+    ```
 
 The frontend will be available at [http://localhost:3000](http://localhost:3000).
 
