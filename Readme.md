@@ -26,27 +26,26 @@ iNotebook is a secure and intuitive cloud-based application designed to help you
 ### 📦 Backend Setup (Flask)
 
 1. Create and activate a virtual environment:
+
    ```bash
    python -m venv venv
    source venv/bin/activate    # On macOS/Linux
    venv\Scripts\activate       # On Windows
    ```
 
-````
-
 2. Install dependencies:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+  pip install -r requirements.txt
+```
 
 3. Start the Flask backend:
 
-   ```bash
-   flask run --port=5000
-   ```
+```bash
+flask run --port=5000
+```
 
-   The backend will be available at [http://localhost:5000](http://localhost:5000).
+The backend will be available at [http://localhost:5000](http://localhost:5000).
 
 ---
 
@@ -54,23 +53,23 @@ iNotebook is a secure and intuitive cloud-based application designed to help you
 
 1. Move into the frontend folder:
 
-   ```bash
-   cd frontend
-   ```
+```bash
+cd frontend
+```
 
 2. Install dependencies:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 3. Start the React app:
 
-   ```bash
-   npm start
-   ```
+```bash
+npm start
+```
 
-   The frontend will be available at [http://localhost:3000](http://localhost:3000).
+The frontend will be available at [http://localhost:3000](http://localhost:3000).
 
 ---
 
@@ -93,4 +92,39 @@ iNotebook is a secure and intuitive cloud-based application designed to help you
 - **Backend**: Flask, MongoEngine, JWT
 - **Database**: MongoDB
 - **Frontend**: React.js, Context API
-````
+
+---
+
+## 📸 Screenshots
+
+### 🔑 Login
+
+![Login](image.png)
+
+### 📝 Signup
+
+![Signup](image-1.png)
+
+### 📋 Notes List
+
+![Notes List](image-4.png)
+
+### 📭 Empty Notes State
+
+![Empty Notes](image-2.png)
+
+### ➕ Add Note
+
+![Add Note](image-3.png)
+
+### ✏️ Edit Note
+
+![Edit Note](image-5.png)
+
+### ❌ Delete Note
+
+![Delete Note](image-6.png)
+
+### 🔔 Notification Toast
+
+![Notification Toast](image-7.png)
