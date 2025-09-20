@@ -1,0 +1,87 @@
+/* 1. Define the color theme using CSS Variables */
+:root {
+    --primary-purple: #8e44ad;
+    --secondary-green: #27ae60;
+    --text-dark: #34495e;
+    --bg-light: #f4f7f6;
+    /* A very light grey for the page background */
+    --border-light: #dcdde1;
+    --white: #ffffff;
+}
+
+/* 2. Page Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 87vh;
+    background-color: var(--bg-light);
+}
+
+/* 3. Custom Form Card */
+.login-card {
+    background-color: var(--white);
+    padding: 2.5rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+/* 4. Custom Form Elements */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+.form-control-custom {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control-custom:focus {
+    outline: none;
+    border-color: var(--primary-purple);
+    box-shadow: 0 0 0 3px rgba(142, 68, 173, 0.15);
+}
+
+/* 5. Re-using Custom Button Styles */
+.custom-btn {
+    width: 100%;
+    /* Make button full-width */
+    padding: 12px 24px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.btn-primary-custom {
+    background-color: var(--primary-purple);
+    color: white;
+}
+
+.btn-primary-custom:hover {
+    background-color: #7d3c98;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(142, 68, 173, 0.3);
+}

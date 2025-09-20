@@ -1,0 +1,106 @@
+:root {
+    --primary-purple: #8e44ad;
+    --secondary-green: #27ae60;
+    --danger-red: #c0392b;
+    --text-dark: #34495e;
+    --text-light: #7f8c8d;
+    --bg-light: #f4f7f6;
+    --border-light: #dcdde1;
+    --white: #ffffff;
+}
+.page-header {
+    gap: 1.5rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1.5rem 0;
+    margin-top: 0!important;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.page-header h2 {
+    color: var(--text-dark);
+    margin: 0;
+}
+
+.notes-container{
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+.notes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.notes-grid h3 {
+    grid-column: 1 / -1;
+    color: var(--text-dark);
+    
+}
+
+.no-notes-card {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 3rem;
+    background-color: var(--white);
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.no-notes-card .icon {
+    font-size: 3rem;
+    color: var(--border-light);
+    margin-bottom: 1rem;
+    color: var(--primary-purple) !important;
+}
+
+.no-notes-card h4 {
+    color: var(--text-dark);
+}
+
+.no-notes-card p {
+    color: var(--text-light);
+}
+
+.modal-content {
+    border-radius: 15px !important;
+    border: none !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--border-light) !important;
+}
+
+.modal-header h5 {
+    color: var(--primary-purple);
+    font-weight: 600;
+}
+
+.modal-footer {
+    border-top: none !important;
+    flex-wrap: nowrap !important;
+    padding-top: 0 !important;
+}
+
+.btn-danger-custom {
+    background-color: var(--danger-red);
+    color: white;
+}
+
+.btn-danger-custom:hover {
+    background-color: #a93226;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(192, 57, 43, 0.3);
+}
+.notes-page-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    background-color: var(--bg-light);
+    min-height: calc(100vh - 85px);
+}

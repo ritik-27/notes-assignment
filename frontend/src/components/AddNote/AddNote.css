@@ -1,0 +1,67 @@
+:root {
+    --primary-purple: #8e44ad;
+    --secondary-green: #27ae60;
+    --text-dark: #34495e;
+    --border-light: #dcdde1;
+    --white: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+.form-control-custom {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control-custom:focus {
+    outline: none;
+    border-color: var(--primary-purple);
+    box-shadow: 0 0 0 3px rgba(142, 68, 173, 0.15);
+}
+
+.custom-btn {
+    padding: 10px 24px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.btn-primary-custom {
+    background-color: var(--primary-purple);
+    color: white;
+}
+
+.btn-primary-custom:hover {
+    background-color: #7d3c98;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(142, 68, 173, 0.3);
+}
+
+.btn-secondary-custom {
+    background-color: transparent;
+    color: var(--secondary-green);
+    border-color: var(--secondary-green);
+}
+
+.btn-secondary-custom:hover {
+    background-color: var(--secondary-green);
+    color: white;
+}

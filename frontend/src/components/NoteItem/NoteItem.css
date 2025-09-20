@@ -1,0 +1,47 @@
+/* Defines the look of a single note card */
+.note-item {
+    background-color: #ffffff;
+    border: 1px solid var(--border-light);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.note-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.note-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.note-item-header h5 {
+    margin: 0;
+    color: var(--text-dark);
+}
+
+.note-item-icons i {
+    cursor: pointer;
+    margin-left: 1rem;
+    color: var(--text-light);
+    transition: color 0.2s;
+}
+
+.note-item-icons .fa-trash-alt:hover {
+    color: var(--danger-red);
+}
+
+.note-item-icons .fa-edit:hover {
+    color: var(--primary-purple);
+}
+
+.note-item p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    margin: 0;
+}
