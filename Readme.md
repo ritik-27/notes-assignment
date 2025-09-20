@@ -107,32 +107,32 @@ The frontend will be available at [http://localhost:3000](http://localhost:3000)
 
 ### 🔑 Login
 
-![Login](image.png)
+![Login](./assets/image.png)
 
 ### 📝 Signup
 
-![Signup](image-1.png)
+![Signup](./assets/image-1.png)
 
 ### 📋 Notes List
 
-![Notes List](image-4.png)
+![Notes List](./assets/image-4.png)
 
 ### 📭 Empty Notes State
 
-![Empty Notes](image-2.png)
+![Empty Notes](./assets/image-2.png)
 
 ### ➕ Add Note
 
-![Add Note](image-3.png)
+![Add Note](./assets/image-3.png)
 
 ### ✏️ Edit Note
 
-![Edit Note](image-5.png)
+![Edit Note](./assets/image-5.png)
 
 ### ❌ Delete Note
 
-![Delete Note](image-6.png)
+![Delete Note](./assets/image-6.png)
 
 ### 🔔 Notification Toast
 
-![Notification Toast](image-7.png)
+![Notification Toast](./assets/image-7.png)
